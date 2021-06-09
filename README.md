@@ -1,4 +1,13 @@
-### Tests
+# Epicodus | Week 03 | Text Analyzer
+
+> Let's say we have an application that counts the number of vowels in a string. This application has tests detailing each behavior it must exhibit. However, they're out of order! Reorder the following list of tests from the simplest possible behavior to the most complex behavior with your partner.
+
+I added logic for the `vowelCounter()` function, and automated testing by running a function to check various inputs. This can be seen in the console if you open the page in your browser.
+
+## Live Site
+[https://alyxmoon.github.io/epicodus-week03-vowel-counter/](https://alyxmoon.github.io/epicodus-week03-vowel-counter/)
+
+## Tests
 
 #### Describe: vowelCounter();
 
