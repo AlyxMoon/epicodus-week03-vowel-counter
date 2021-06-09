@@ -1,4 +1,4 @@
-# Epicodus | Week 03 | Text Analyzer
+# Epicodus | Week 03 | Vowel Counter
 
 > Let's say we have an application that counts the number of vowels in a string. This application has tests detailing each behavior it must exhibit. However, they're out of order! Reorder the following list of tests from the simplest possible behavior to the most complex behavior with your partner.
 
