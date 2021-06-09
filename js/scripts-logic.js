@@ -1,3 +1,7 @@
 function vowelCounter (sentence) {
-  return 0
+  return (
+    sentence
+    .toLowerCase()
+    .match(/[aeiouAEIOU]/g) || []
+  ).length
 }
