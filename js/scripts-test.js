@@ -33,15 +33,6 @@ const tests = [
   },
 
   function () {
-    logDescription('It recognizes vowels in a multiple word sentence regardless of capitalization.')
-  
-    const actual = vowelCounter('CATS CATERED THE EVENT')
-    const expected = 7
-
-    logResult(actual, expected)
-  },
-
-  function () {
     logDescription('It recognizes multiple vowels in a single word.')
   
     const actual = vowelCounter('cater')
@@ -51,18 +42,9 @@ const tests = [
   },
 
   function () {
-    logDescription('It recognizes a single vowel regardless of case.')
+    logDescription('It recognizes vowels in a multiple-word sentence.')
   
-    const actual = vowelCounter('A')
-    const expected = 1
-
-    logResult(actual, expected)
-  },
-
-  function () {
-    logDescription('It recognizes all vowels in a multiple-word sentence regardless of inconsistent capitalization.')
-  
-    const actual = vowelCounter('CaTS CATEReD ThE EveNT')
+    const actual = vowelCounter('cats catered the event')
     const expected = 7
 
     logResult(actual, expected)
@@ -78,9 +60,27 @@ const tests = [
   },
 
   function () {
-    logDescription('It recognizes vowels in a multiple-word sentence.')
+    logDescription('It recognizes a single vowel regardless of case.')
   
-    const actual = vowelCounter('cats catered the event')
+    const actual = vowelCounter('A')
+    const expected = 1
+
+    logResult(actual, expected)
+  },
+
+  function () {
+    logDescription('It recognizes vowels in a multiple word sentence regardless of capitalization.')
+  
+    const actual = vowelCounter('CATS CATERED THE EVENT')
+    const expected = 7
+
+    logResult(actual, expected)
+  },
+
+  function () {
+    logDescription('It recognizes all vowels in a multiple-word sentence regardless of inconsistent capitalization.')
+  
+    const actual = vowelCounter('CaTS CATEReD ThE EveNT')
     const expected = 7
 
     logResult(actual, expected)
